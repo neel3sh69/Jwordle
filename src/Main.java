@@ -11,7 +11,7 @@ public class Main {
 
         // Load properties file for words
         Properties prop = new Properties();
-        prop.load(new FileInputStream("C:\\Users\\sarat\\IdeaProjects\\Jwordle\\src\\wordsFile.properties"));
+        prop.load(new FileInputStream("C:\\<insert_path_to>\\src\\wordsFile.properties"));
         String[] words = prop.get("theWords").toString().split(","); // Get words from file and store in array
 
         //Instructions
